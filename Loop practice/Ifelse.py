@@ -7,5 +7,5 @@ if var2>var1:
     print("Elligible for driving")
 elif var2==var1:
     print("learning licience required")
-else:
+else
     print("Not elligble for driving")
