@@ -1,0 +1,27 @@
+################break example###################
+for i in range (1,10)
+if i > 5 :
+    break ;
+ else
+ print(1)
+
+ Out put 0,1,2,3,4,5 and break the loop by this condition
+########################################################
+
+############## else example ####################
+In while loop , till the condition get the false then else will work
+in between if break is used then else condition will not work as same in for loop also
+
+############### PASS ###########3
+if you dont have any statement to write anything in loop , but we cant left blank
+in any loop so we just pass the loop .
+
+########## continue #######3
+using when need to miss that condition and want to work the loop after that condition meet
+for i in range (0,10):
+    if i % == 0:
+    continue
+  print(i)
+  then print all numbers except 5 : 1,2,3,4,6,7,8,9
+
+
