@@ -1,0 +1,59 @@
+Operators on Strings
+• The operators that work on strings are
+Concatenation
+repetition
+Indexing
+Slicing
+In
+Not in
+- Concatenation :
+• In python we can join / concatenate 2 strings using +
+• Ex :
+s1 =‘hello’ s2 = ‘world’
+s3 = s1 + s2 = ‘helloworld’
+• Because string is immutable it will not modify it . It will create a new string
+• When concatenation the 2 strings must be of string datatype only, if one is string and
+the other is integer this will not work
+• Ex :
+s1 =‘hello’ s2 = 15 // error
+To add a string and a number we must type case the integer value then add it
+• Ex :
+s1 =‘hello’ s2 = str( 15 ) // (o/p)
+- Repetition :
+• We can multiply a string with integer numbers
+• Ex :
+s1 =‘hi’ * 3 // (o/p) hihihi
+• Repetition only work with a string and integer value only
+• Float numbers cannot be used here .
+• Ex :
+‘ hello ’ * 2.5 // error
+- Indexing :
+• Suppose we are having a string s1 =‘hello world ’, it looks like this with indexing
+• It has both +ve and -ve indexing values
+• You can access any character of the string using index values.
+s1[ o ] —— h
+s[ -11 ] —— h
+s1[ 4 ] —— o
+s1[ 6 ] —— w
+s1[ —6 ] —— blank space
+- Slicing :
+• We can access values of strings using index
+• Another way of accessing elements in a string is through slicing
+• The syntax for slicing a string is
+s1[ start : stop : step ]
+• Using slicing we can extract specific potion of a string
+Ex :
+- in :
+• It will say if a character is present in the string or not .
+• If it is present then it will return True or else False .
+Ex :
+s1 = ‘hello world ’
+h in s1 —— True
+world in s1 —— True
+me in s1 —— False
+- not in :
+• It will say TRUE if the character is not present
+Ex :
+s1 = ‘hello world ’
+me not in s1 —— True
+world not in s1 —— False
