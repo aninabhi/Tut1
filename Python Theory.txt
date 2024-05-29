@@ -1,0 +1,81 @@
+##Variables### 
+You can assign a value to a variable using the = operator.
+
+ Variable names can contain letters, numbers, and underscores.
+They cannot start with a number.
+Python is case-sensitive, so myVar and myvar are different variables.
+Avoid using reserved words as variable names.
+
+
+####Data Types###:
+Variables in Python can hold different types of data. Common data types include integers, floats, strings, booleans, lists, dictionaries, and more.s
+
+Variables  can store in these way in python : 
+
+name , price , weight = 'soap' , 15 , 50.5 
+
+###Variables Rules####: 
+
+1) Name can contains alpha-numric characters and underscore .
+2) Name should start with letter or underscore character .
+3) Keyword should not be used .
+4) varaibles are case-sensitive .
+
+
+###Literals#### 
+If value is directly store  in the variables and it is constant , than its literals .
+Eg : price = 300 ( here value is directly assign to variable throughout the programme , 
+Or we also can take the inputs from user and that variable also called literals . 
+Eg : price = input(“enter the price value”)
+
+All values which constant in float , integer , Boolean .  
+
+Literals also can be written in _ separation also  as  s = 123_435_434_432
+
+
+
+'12'
+>>>
+>>> bin(12)
+'0b1100'
+>>> bin(price)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object cannot be interpreted as an integer
+>>> octal(12)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'octal' is not defined
+>>> octa(12)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'octa' is not defined. Did you mean: 'oct'?
+>>> hex(12)
+'0xc'
+>>> oct(12)
+
+
+'0o14'
+
+
+note Coversion to decimal of float to binary number is not allowed and in complex you can change the real value in binary .
+
+
+
+***Conversion Eg##### : 
+NameError: name 'octa' is not defined. Did you mean: 'oct'?
+
+>>>
+>>> b = 16
+>>> bin(b)
+'0b10000'
+>>> oct(b)
+'0o20'
+>>> hex(b)
+'0x10'
+
+
+
+
+
+
