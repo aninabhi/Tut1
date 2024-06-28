@@ -1,3 +1,5 @@
+
+
 n = int(input("enter the number"))
 
 fact =1
